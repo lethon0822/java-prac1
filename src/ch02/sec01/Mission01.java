@@ -5,7 +5,7 @@ public class Mission01 {
         int num1 = 11;
         int num2 = 22;
 
-        // 문자열이 섞여있어 정수가 모두 문자열로 형변환
+        // 문자열이 섞여있어 정수가 모두 문자열로 형변환.
         System.out.println("num: " + num1 + num2); // 1122
         // (1) "num: " + num1
         // (2) "num: " + 11
