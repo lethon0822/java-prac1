@@ -14,5 +14,6 @@ public class RandomNumber {
         double value2 = 0.00002;
         System.out.println("value2: " + (int)(value2 * 10.0));
         System.out.println((int)(Math.random() * 10.0)); // 0 ~ 9
+        // Math.random() ==> 0.000000000 ~ 0.999999999 (1은 나오지 않음)
     }
 }
