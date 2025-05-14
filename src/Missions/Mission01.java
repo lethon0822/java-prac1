@@ -1,4 +1,4 @@
-package ch04;
+package Missions;
 
 public class Mission01 {
     public static void main(String[] args){
