@@ -1,4 +1,4 @@
-package ch04.sec03.Mission;
+package ch04.sec03;
 
 import java.util.Scanner;
 
@@ -25,7 +25,7 @@ public class SwitchString {
             default:
                 System.out.println("올바른 데이터를 입력해주세요.");
         }
-        Scanner.close();
+        scanner.close();
 
     }
 }

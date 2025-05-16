@@ -1,4 +1,4 @@
-package ch04.sec03.Mission;
+package ch04.sec03;
 
 import java.util.Scanner;
 
