@@ -1,4 +1,4 @@
-package ch04;
+package other;
 
 public class EvenOdd {
     public static void main (String[] args) {

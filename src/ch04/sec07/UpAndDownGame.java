@@ -13,7 +13,7 @@ public class UpAndDownGame {
 
             if (answer == number) {
                 System.out.println("정답!!");
-                break;
+                break;  // break를 감싸고 있는 가장 가까운 반복문을 빠져나옴
             } else if (answer > number){
                 System.out.println("Up!");
             } else if (answer < number) {
