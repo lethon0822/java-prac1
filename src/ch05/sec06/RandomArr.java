@@ -10,8 +10,9 @@ public class RandomArr {
             int rVal = (int)(Math.random() * 9.0) + 1; //1~9
             arr[i] = rVal;
 
-            for(int z=0; z<i; z++) {
-                if(arr[z] == rVal) {
+            // i가 0일때 작동x
+            for(int j=0; j < i; j++) {
+                if(arr[j] == rVal) {
                     i--;
                     break;
                 }
