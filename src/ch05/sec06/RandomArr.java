@@ -18,7 +18,6 @@ public class RandomArr {
                 }
             }
         }
-
         System.out.println(Arrays.toString(arr));
     }
 }
